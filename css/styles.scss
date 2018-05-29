@@ -207,7 +207,6 @@ form.dark-theme {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-
 	padding:50px 0;
 	
      .powered-by {
@@ -386,6 +385,12 @@ form.dark-theme {
 }
 
 /*Thanh Options*/
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
 .input-group-addon{
 	font-size: 12px;
 }

@@ -655,6 +655,12 @@ form.dark-theme input::placeholder {
       margin-top: 10px; } }
 
 /*Thanh Options*/
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
 .input-group-addon {
   font-size: 12px; }
 

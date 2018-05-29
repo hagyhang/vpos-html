@@ -81,25 +81,8 @@ body,html {background-color:#f5f5f5;}
     
       <div class="panel panel-default">  
         <div class="panel-body">
-            <div class="search-panel row mt15 mb15 ">
-                <div class="col-sm-10">
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="input-place">
-                             <label>Hiển thị:</label>        
-                             <div class="row">
-                                 <div class="col-xs-7">
-                                 <div class="customSelect">
-                                    <select name="" id="" class="form-control">
-                                        <option value="10">10</option>
-                                        <option value="50">50</option>
-                                        <option value="100">100</option>
-                                     </select>
-                                    </div>
-                                  </div>
-                                  <div class="col-xs-5 mt5 pl0"><span>Dòng</span></div>
-                            </div>       
-                         </div>
-                    </div>
+            <div class="search-panel row mt15 mb35 ">
+                <div class="col-sm-12">
                     <div class="col-sm-6 col-lg-3 ">
                         <div class="input-place">
                           <label>Mã Barcode:</label>
@@ -119,7 +102,7 @@ body,html {background-color:#f5f5f5;}
                             </div>     
                        </div>
                     </div>
-                    <div class="col-sm-6 col-lg-3 ">
+                    <div class="col-sm-6 col-lg-3">
                          <div class="input-place">
                             <label>Đến ngày:</label>
                             <div class="form-group">
@@ -132,14 +115,34 @@ body,html {background-color:#f5f5f5;}
                             </div>
                         </div>
                     </div>
+                    <div class="col-sm-6 col-lg-3">
+                      <div class="input-place">
+                          <a class="btn btn-blue form-control mt27">
+                            <span class="middle-vertical-align">Tìm kiếm</span>
+                          </a>
+                      </div>
+                  </div>
                 </div>
-                <div class="col-sm-2">
-                    <div class="input-place">
-                        <a class="btn btn-blue form-control mt27">
-                          <span class="middle-vertical-align">Tìm kiếm</span>
-                        </a>
-                    </div>
-                </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-8 col-sm-9 col-lg-10">
+              </div>
+              <div class="col-xs-4 col-sm-3 col-lg-2">
+                <div class="input-place">       
+                  <div class="row">
+                      <div class="col-xs-7">
+                        <div class="customSelect">
+                          <select name="" id="" class="form-control">
+                            <option value="10">10</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-xs-5 mt5 pl0"><span>Dòng</span></div>
+                    </div>       
+                 </div>
+              </div>
             </div>
             <div class="table-responsive">
                 <table class="table table-hover table-striped text-center">
@@ -161,8 +164,27 @@ body,html {background-color:#f5f5f5;}
                 </tbody>
                 </table>
             </div>
-            <div class="row mb20">
-                <div class="col-sm-12 text-right text-center-xs">
+            <div class="row relative mb20">
+              <div class="col-xs-8 col-sm-9 col-lg-10">
+              </div>
+              <div class="col-xs-4 col-sm-3 col-lg-2">
+                <div class="input-place">       
+                  <div class="row">
+                      <div class="col-xs-7">
+                        <div class="customSelect">
+                          <select name="" id="" class="form-control">
+                            <option value="10">10</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-xs-5 mt5 pl0"><span>Dòng</span></div>
+                    </div>       
+                 </div>
+              </div>
+              <div class="absolute col-xs-12">
+                <div class="text-center mt4">
                   <div class="visible-xs mt30"></div>
                   <ul class="pagination">
                     <li>
@@ -186,7 +208,8 @@ body,html {background-color:#f5f5f5;}
                     </li>
                   </ul>
                 </div>
-            </div>
+              </div>
+            </div> 
       </div>  
     </div>
   </div>
